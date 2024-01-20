@@ -1,0 +1,92 @@
+#me-image {
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+}
+
+#gmail-image {
+    height: 30px;
+    width: 40px;
+    padding: 30px;
+}
+
+#linkedin-image {
+    height: 35px;
+    width: 35x;
+    padding: 30px;
+}
+
+#contact-items{
+    flex-direction: column;
+    text-align: center;
+
+}
+
+body {
+    background-color:aliceblue;
+    font-family: 'Enriqueta', arial, serif;
+}
+
+p {
+    margin: 0px;
+    line-height: 30px;
+    padding: 0px 20px 0px 20px;
+}
+
+#homepage-name {
+    text-align: center;
+    margin: 20px;
+}
+
+#homepage-majorschool {
+    text-align: center;
+    margin: 20px;
+}
+
+.subheader {
+    margin: 20px;
+}
+
+.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-items {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#nav-menu {
+    list-style-type: none; /*removes bulletpoints*/
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden; /*prevents text from overflowing*/
+    background-color: aliceblue;
+  }
+  
+  #nav-item {
+    float: left;
+  }
+
+  li {
+    line-height: 30px;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: lightblue; /* Change the link color to #111 (black) on hover */
+  }
+
+nav {
+    position: sticky;
+    top: 0px;
+}
